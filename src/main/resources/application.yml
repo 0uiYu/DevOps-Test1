@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: okhttp-demo
+  profiles:
+    active: dev
