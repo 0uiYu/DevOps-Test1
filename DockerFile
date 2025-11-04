@@ -2,7 +2,7 @@ FROM openjdk:17-jdk-alpine
 
 WORKDIR /app
 
-COPY /opt/java/java_okhttp.jar /app/java.jar
+COPY /target/java_okhttp.jar app.jar
 
 EXPOSE 8080
 
