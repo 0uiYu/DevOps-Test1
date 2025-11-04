@@ -32,4 +32,9 @@ public class UserController {
         List<User> list = userService.lambdaQuery().list();
         return list;
     }
+
+    @GetMapping("/test")
+public String test() {
+    return "Hello, this is a test!";
+}
 }
