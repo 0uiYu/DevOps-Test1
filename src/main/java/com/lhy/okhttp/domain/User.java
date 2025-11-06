@@ -10,6 +10,7 @@ import lombok.Data;
  *
  * @author lihaoyu
  * @since 2025/10/28 15:42
+ * @description:
  */
 @Data
 public class User extends Model<User> {

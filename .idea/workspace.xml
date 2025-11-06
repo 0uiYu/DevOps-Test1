@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aec63360-8326-4d41-92a3-174ebe1ad890" name="Changes" comment="" />
+    <list default="true" id="aec63360-8326-4d41-92a3-174ebe1ad890" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lhy/okhttp/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lhy/okhttp/domain/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +52,7 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="34gZAMk16oh3yyckc4p0fr44ObD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,6 +72,7 @@
     "Spring Boot.OkHttpSpringBootApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/LearnProjecdt/DevOps-Test1/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,6 +85,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LearnProjecdt\DevOps-Test1\src\main\resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="OkHttpSpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="okhttp-demo" />
@@ -110,10 +120,25 @@
       <updated>1761637031472</updated>
       <workItem from="1761637032541" duration="5691000" />
       <workItem from="1761671132794" duration="677000" />
+      <workItem from="1762275646973" duration="3366000" />
+      <workItem from="1762437891522" duration="2116000" />
     </task>
+    <task id="LOCAL-00001" summary="添加maven插件">
+      <option name="closed" value="true" />
+      <created>1762277570472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762277570472</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加maven插件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加maven插件" />
   </component>
 </project>
