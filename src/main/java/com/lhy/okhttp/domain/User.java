@@ -1,7 +1,10 @@
 package com.lhy.okhttp.domain;
 
 import com.baomidou.mybatisplus.extension.activerecord.Model;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
+
+import java.util.Date;
 
 /**
  * <p>
@@ -13,8 +16,18 @@ import lombok.Data;
  * @description:
  */
 @Data
+@Schema(description = "用户实体")
 public class User extends Model<User> {
-    private Integer id;
-    private String username;
-    private String password;
+
+    @Schema(description = "用户ID")
+    private Long id;
+
+    @Schema(description = "真实姓名")
+    private String name;
+
+    @Schema(description = "邮件")
+    private String email;
+
+    @Schema(description = "创建时间")
+    private Date createdAt;
 }
